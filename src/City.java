@@ -30,7 +30,7 @@ public class City {
         out.println("Введіть назву країни: ");
         this.countryName = scanner.nextLine();
         out.println("Введіть кількість жителів у місті: ");
-        this.population = scanner.nextInt();
+        this.population = Integer.parseInt(scanner.nextLine());
         out.println("Введіть поштовий індекс міста: ");
         this.postalCode = scanner.nextLine();
         out.println("Введіть телефонний код міста: ");
